@@ -1,0 +1,83 @@
+# ===========================================
+# 🪑 FurniCraft – Streamlit Project Gitignore
+# ===========================================
+
+# --- Python cache / build ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+build/
+dist/
+
+# --- Virtual environment folders ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- IDE / Editor settings ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- Streamlit specific cache ---
+.streamlit/
+.streamlit_cache/
+.streamlit-secrets.toml
+
+# --- Logs / temporary files ---
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- OS generated files ---
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# --- Jupyter checkpoints (if any) ---
+.ipynb_checkpoints/
+
+# --- Data and configuration ---
+# Keep only the JSON and assets you need
+# So we ignore large datasets or temp exports
+
+# Keep product data JSON
+!data/products.json
+data/*.csv
+data/*.xlsx
+data/*.tmp
+
+# --- Assets (Keep images!) ---
+!assets/**
+assets/**/*.tmp
+assets/**/*.bak
+
+# --- Optional local test or output files ---
+*.csv
+*.pdf
+*.zip
+order_summary.csv
+
+# --- Ignore any hidden files not tracked ---
+.*
+!/.gitignore
+!/.streamlit/
+
+# ===========================================
+# ✅ Keeps only:
+#   - all Python source files (.py)
+#   - data/products.json
+#   - assets/ (images & backgrounds)
+#   - requirements.txt
+#   - README.md
+# ===========================================
