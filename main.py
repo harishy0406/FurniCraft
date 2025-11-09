@@ -76,7 +76,7 @@ if st.session_state.page == 'landing':
     # Short project description (centered paragraph)
     st.markdown(
         """
-        <p style="font-size:18px; max-width:700px; margin:20px auto; line-height:1.6; color:#f0f0f0;">
+        <p style="font-size:18px; max-width:700px; margin:20px auto; line-height:1.6; color:#11111;">
         FurniCraft is a <b>Streamlit-based</b> interactive system that lets users explore, customize, 
         and purchase furniture from different design families like <b>Modern</b> and <b>Victorian</b>. 
         The system demonstrates multiple <b>software design patterns</b> — Abstract Factory, Singleton, 

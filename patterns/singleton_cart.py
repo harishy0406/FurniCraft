@@ -1,3 +1,4 @@
+# Modified Cart logic
 class ShoppingCart:
     _instance = None
 
